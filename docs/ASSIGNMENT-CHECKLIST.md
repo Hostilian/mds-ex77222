@@ -9,8 +9,8 @@ Os estados abaixo distinguem conteúdo preparado, publicação e ações humanas
 | 1 | Rede da Universidade | Instrução preservada | Candidatura feita no contexto pedido pelo professor |
 | 1 | Two Factor Authentication | Guia, sem segredos | 2FA ativa na conta |
 | 1 | Cartão ou prova de matrícula | Orientação; nenhum documento incluído | Evidência atual submetida quando pedida |
-| 1 | Repositório privado `mds-ex77222` | Nome e conteúdo preparados | Visibilidade Private confirmada |
-| 1 | Adicionar `pedrosalgueiro` | Utilizador exato identificado no enunciado | Convite criado e, separadamente, aceite |
+| 1 | Repositório privado `mds-ex77222` | Repositório `Hostilian/mds-ex77222` existe | **PENDENTE:** API GitHub confirmou visibilidade **PUBLIC** em 25/10/2026; alterar para Private depois de avaliar acesso à Wiki com plano GitHub adequado |
+| 1 | Adicionar `pedrosalgueiro` | Utilizador exato identificado no enunciado | **VERIFICADO PARCIALMENTE 25/10/2026:** API devolve permissão `read`; como o repositório é atualmente PUBLIC, isto **não prova** convite aceite nem acesso após mudar para Private; confirmar em Settings → Collaborators |
 | 2 | Grupo de 2 ou 3 | Registo vazio e roteiro de discussão | Membros reais confirmados |
 | 2 | Um único criador do projeto | Guia de coordenação | Repositório acordado com o grupo |
 | 2 | Conta com email de aluno validada | Mesmos passos da prática 1 | Conta/estado comprovados |
@@ -24,6 +24,10 @@ Os estados abaixo distinguem conteúdo preparado, publicação e ações humanas
 | 2 | IDs, descrição e utilizadores por função | F01–F23 e referências U01–U05 | Página publicada e acessos revistos |
 | 3 | Página restrições do sistema | Título exato e 18 restrições preparadas | Página publicada na Wiki nativa |
 | 3 | Base para requisitos não funcionais | Categoria, requisito candidato e validação por restrição | Propostas e critérios revistos; valores em aberto acordados |
+
+## Auditoria de estado em 25/10/2026
+
+Os estados acima representam apenas o que é verificável: **documentação preparada não equivale à publicação na Wiki**, e a API não mostrou grupo de 2–3 estudantes nem confirmação da avaliação pelo professor. GitHub Free permite Wiki em repositórios públicos; para uma Wiki privada pode ser necessário GitHub Pro/Education, Team ou equivalente (consultar https://docs.github.com/en/communities/documenting-your-project-with-wikis). Não publicar trabalhos académicos confidenciais para contornar esta limitação. Antes de alterar a visibilidade do repositório, confirmar as funcionalidades do plano e o requisito exato com a equipa/avaliação; uma mudança Public→Private pode desativar a Wiki se o plano não suportar Wiki privada.
 
 ## Verificação técnica
 
